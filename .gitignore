@@ -1,0 +1,9 @@
+runs
+snapshot_*
+__pycache__
+simclr_chkpnt/*
+cifar10_10
+slurm*
+final_model_wts
+data
+
