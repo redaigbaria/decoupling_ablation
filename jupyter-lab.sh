@@ -27,6 +27,6 @@ conda activate $CONDA_ENV
 
 # jupyter lab --no-browser --ip=$(hostname -I) --port-retries=100
 
-jupyter nbconvert --to notebook --execute reda.ipynb
-xvfb-run -a -s "-screen 0 1440x900x24" jupyter lab --no-browser --ip=$(hostname -I) --port-retries=100
+#jupyter nbconvert --to notebook --execute reda.ipynb
+  xvfb-run -a -s "-screen 0 1440x900x24" jupyter lab --no-browser --ip=$(hostname -I) --port-retries=100
 
